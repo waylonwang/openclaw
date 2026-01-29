@@ -1,12 +1,12 @@
 ---
-summary: "Model providers (LLMs) supported by OpenClaw"
+summary: "Model providers (LLMs) supported by Moltbot"
 read_when:
   - You want to choose a model provider
   - You need a quick overview of supported LLM backends
 ---
 # Model Providers
 
-OpenClaw can use many LLM providers. Pick a provider, authenticate, then set the
+Moltbot can use many LLM providers. Pick a provider, authenticate, then set the
 default model as `provider/model`.
 
 Looking for chat channel docs (WhatsApp/Telegram/Discord/Slack/Mattermost (plugin)/etc.)? See [Channels](/channels).
@@ -22,7 +22,7 @@ See [Venice AI](/providers/venice).
 
 ## Quick start
 
-1) Authenticate with the provider (usually via `openclaw onboard`).
+1) Authenticate with the provider (usually via `moltbot onboard`).
 2) Set the default model:
 
 ```json5
@@ -41,9 +41,8 @@ See [Venice AI](/providers/venice).
 - [Moonshot AI (Kimi + Kimi Code)](/providers/moonshot)
 - [OpenCode Zen](/providers/opencode)
 - [Amazon Bedrock](/bedrock)
-- [Z.AI](/providers/zai)
-- [Xiaomi](/providers/xiaomi)
-- [GLM models](/providers/glm)
+- [Z.AI / Zhipu AI (GLM models)](/providers/zai) - International + China, pay-as-you-go + Coding Plan
+- [GLM models](/providers/glm) - Model family overview
 - [MiniMax](/providers/minimax)
 - [Venius (Venice AI, privacy-focused)](/providers/venice)
 - [Ollama (local models)](/providers/ollama)
